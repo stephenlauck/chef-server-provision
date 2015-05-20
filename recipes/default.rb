@@ -8,7 +8,7 @@ include_recipe 'chef-server-provision::vagrant'
 
 # declare a machine to act as our web server
 machine 'chef-server' do
-  role 'example'
+  recipe 'chef-server::default'
   tag 'chefserver'
   converge true
 end
