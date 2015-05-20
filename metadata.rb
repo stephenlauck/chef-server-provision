@@ -6,3 +6,4 @@ description      'Installs/Configures chef-server-provision'
 long_description 'Installs/Configures chef-server-provision'
 version          '0.1.0'
 
+depends 'chef-server'
